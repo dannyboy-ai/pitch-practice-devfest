@@ -4,6 +4,8 @@ A local-only iPhone pitch tool, practice recorder, and approximate lyric navigat
 
 Public source snapshot for DevFest. This is the code submission, not an App Store or TestFlight download. Recordings, bundled model weights, build products, and prior repository history are not included; model setup and build instructions are below.
 
+**Presentation:** [Open the slides](https://dannyboy-ai.github.io/pitch-practice-devfest/) · [Self-contained v35 HTML file](docs/v35.html). Use the left/right arrows to navigate; fullscreen supports click-to-advance and an automatically hiding cursor.
+
 ## Use
 
 - **One main screen:** the bass and tenor-style treble staves, pitch readout, and sliding pitch lane stay together. Select a reference on the staff or lane while the microphone is stopped; there is no duplicate stepper.
