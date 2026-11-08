@@ -1,0 +1,24 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+
+# Transcription lab build products and private experiment data
+Experiments/TranscriptionLab/.build/
+Experiments/TranscriptionLab/.swiftpm/
+Experiments/TranscriptionLab/Models/
+Experiments/TranscriptionLab/Recordings/
+Experiments/TranscriptionLab/Reports/
+Experiments/TranscriptionLab/__pycache__/
+
+# Shared local speech build products and bundled model assets
+LocalSpeech/.build/
+LocalSpeech/.swiftpm/
+PitchPractice/SpeechModels/
+Scripts/__pycache__/

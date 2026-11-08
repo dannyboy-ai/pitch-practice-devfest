@@ -1,0 +1,31 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  A1 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660;}; buildConfigurationList = A2; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, Base); mainGroup = A3; productRefGroup = A4; projectDirPath = ""; projectRoot = ""; targets = (A5); packageReferences = (R1);};
+  A2 = {isa = XCConfigurationList; buildConfigurations = (D1, D2); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A3 = {isa = PBXGroup; children = (G1, A4); sourceTree = "<group>";};
+  A4 = {isa = PBXGroup; children = (P1); name = Products; sourceTree = "<group>";};
+  A5 = {isa = PBXNativeTarget; buildConfigurationList = A6; buildPhases = (S1, S2, S3); buildRules = (); dependencies = (); name = TranscriptionLab; productName = TranscriptionLab; productReference = P1; productType = "com.apple.product-type.application"; packageProductDependencies = (R2);};
+  A6 = {isa = XCConfigurationList; buildConfigurations = (D3, D4); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  G1 = {isa = PBXGroup; children = (F1, F2); path = App; sourceTree = "<group>";};
+  F1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionLabApp.swift; sourceTree = "<group>";};
+  F2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabStore.swift; sourceTree = "<group>";};
+  P1 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranscriptionLab.app; sourceTree = BUILT_PRODUCTS_DIR;};
+  B1 = {isa = PBXBuildFile; fileRef = F1;};
+  B2 = {isa = PBXBuildFile; fileRef = F2;};
+  B3 = {isa = PBXBuildFile; productRef = R2;};
+  S1 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B1, B2); runOnlyForDeploymentPostprocessing = 0;};
+  S2 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (B3); runOnlyForDeploymentPostprocessing = 0;};
+  S3 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  R1 = {isa = XCLocalSwiftPackageReference; relativePath = ".";};
+  R2 = {isa = XCSwiftPackageProductDependency; productName = TranscriptionEngines;};
+  D1 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Debug;};
+  D2 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Release;};
+  D3 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = 4YXSJW2N3C; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Transcription Lab"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = ai.dannyboy.pitchpractice.transcriptionlab; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; TARGETED_DEVICE_FAMILY = 1;}; name = Debug;};
+  D4 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = 4YXSJW2N3C; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Transcription Lab"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = ai.dannyboy.pitchpractice.transcriptionlab; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; TARGETED_DEVICE_FAMILY = 1;}; name = Release;};
+ };
+ rootObject = A1;
+}
